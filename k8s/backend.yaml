@@ -15,7 +15,7 @@ spec:
       containers:
       - name: backend
         # GitHub Actions will update this tag
-        image: prajwalbudnur/my-backend:latest
+        image: prajwalbudnur/my-backend:f82342417e293fb11e651c7df2d9d79c7529b845
         env:
         - name: REDIS_HOST
           value: "redis-service" # This connects it to Tier 3

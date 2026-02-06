@@ -15,7 +15,7 @@ spec:
       containers:
       - name: frontend
         # GitHub Actions will update this tag
-        image: prajwalbudnur/my-frontend:latest
+        image: prajwalbudnur/my-frontend:f82342417e293fb11e651c7df2d9d79c7529b845
         ports:
         - containerPort: 80
 ---
